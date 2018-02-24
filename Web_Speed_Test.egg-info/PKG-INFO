@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: Web-Speed-Test
+Version: 1.0.0
+Summary: Web speed analytics tool
+Home-page: UNKNOWN
+Author: Robin Smith
+Author-email: robin@rsmith.io
+License: Web Speed Test (see license.pdf)
+Description: This application performs a speed analysis on desktop and mobile versions of websites, usingGoogle's PageInsights API
+Keywords: web speed analytics
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Commercial
+Classifier: Topic :: Commercial :: Web Analytics
+Classifier: License :: Web Speed Test
+Classifier: Programming Language :: Python :: 3.6

@@ -1,0 +1,611 @@
+res: {
+    "kind": "pagespeedonline#result",
+    "id": "https://rsmith.io/",
+    "responseCode": 200,
+    "title": "Robin Smith - Freelance Web Developer",
+    "ruleGroups": {
+        "SPEED": {
+            "score": 67
+        },
+        "USABILITY": {
+            "score": 99
+        }
+    },
+    "pageStats": {
+        "numberResources": 20,
+        "numberHosts": 4,
+        "totalRequestBytes": "1651",
+        "numberStaticResources": 12,
+        "htmlResponseBytes": "12414",
+        "cssResponseBytes": "199697",
+        "imageResponseBytes": "464126",
+        "javascriptResponseBytes": "192178",
+        "otherResponseBytes": "138675",
+        "numberJsResources": 1,
+        "numberCssResources": 4
+    },
+    "formattedResults": {
+        "locale": "en_US",
+        "ruleResults": {
+            "AvoidLandingPageRedirects": {
+                "localizedRuleName": "Avoid landing page redirects",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your page has no redirects. Learn more about {{BEGIN_LINK}}avoiding landing page redirects{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/AvoidRedirects"
+                        }
+                    ]
+                }
+            },
+            "AvoidPlugins": {
+                "localizedRuleName": "Avoid plugins",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "USABILITY"
+                ],
+                "summary": {
+                    "format": "Your page does not appear to use plugins, which would prevent content from being usable on many platforms. Learn more about the importance of {{BEGIN_LINK}}avoiding plugins{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/AvoidPlugins"
+                        }
+                    ]
+                }
+            },
+            "ConfigureViewport": {
+                "localizedRuleName": "Configure the viewport",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "USABILITY"
+                ],
+                "summary": {
+                    "format": "Your page specifies a viewport matching the device's size, which allows it to render properly on all devices. Learn more about {{BEGIN_LINK}}configuring viewports{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/ConfigureViewport"
+                        }
+                    ]
+                }
+            },
+            "EnableGzipCompression": {
+                "localizedRuleName": "Enable compression",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "You have compression enabled. Learn more about {{BEGIN_LINK}}enabling compression{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/EnableCompression"
+                        }
+                    ]
+                }
+            },
+            "LeverageBrowserCaching": {
+                "localizedRuleName": "Leverage browser caching",
+                "ruleImpact": 6.589285714285713,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Setting an expiry date or a maximum age in the HTTP headers for static resources instructs the browser to load previously downloaded resources from local disk rather than over the network."
+                },
+                "urlBlocks": [
+                    {
+                        "header": {
+                            "format": "{{BEGIN_LINK}}Leverage browser caching{{END_LINK}} for the following cacheable resources:",
+                            "args": [
+                                {
+                                    "type": "HYPERLINK",
+                                    "key": "LINK",
+                                    "value": "https://developers.google.com/speed/docs/insights/LeverageBrowserCaching"
+                                }
+                            ]
+                        },
+                        "urls": [
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/css/styles.css"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/ben.jpg"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/bg.png"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/macbook_alumina_small.png"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/me.jpg"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/salesforce_s3.png"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/sean.jpg"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/steve.jpg"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}} ({{LIFETIME}})",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/js/scripts.js"
+                                        },
+                                        {
+                                            "type": "DURATION",
+                                            "key": "LIFETIME",
+                                            "value": "4 hours"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "MainResourceServerResponseTime": {
+                "localizedRuleName": "Reduce server response time",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your server responded quickly. Learn more about {{BEGIN_LINK}}server response time optimization{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/Server"
+                        }
+                    ]
+                }
+            },
+            "MinifyCss": {
+                "localizedRuleName": "Minify CSS",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your CSS is minified. Learn more about {{BEGIN_LINK}}minifying CSS{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+                        }
+                    ]
+                }
+            },
+            "MinifyHTML": {
+                "localizedRuleName": "Minify HTML",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your HTML is minified. Learn more about {{BEGIN_LINK}}minifying HTML{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+                        }
+                    ]
+                }
+            },
+            "MinifyJavaScript": {
+                "localizedRuleName": "Minify JavaScript",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your JavaScript content is minified. Learn more about {{BEGIN_LINK}}minifying JavaScript{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/MinifyResources"
+                        }
+                    ]
+                }
+            },
+            "MinimizeRenderBlockingResources": {
+                "localizedRuleName": "Eliminate render-blocking JavaScript and CSS in above-the-fold content",
+                "ruleImpact": 32.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Your page has {{NUM_CSS}} blocking CSS resources. This causes a delay in rendering your page.",
+                    "args": [
+                        {
+                            "type": "INT_LITERAL",
+                            "key": "NUM_CSS",
+                            "value": "4"
+                        }
+                    ]
+                },
+                "urlBlocks": [
+                    {
+                        "header": {
+                            "format": "None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML."
+                        }
+                    },
+                    {
+                        "header": {
+                            "format": "{{BEGIN_LINK}}Optimize CSS Delivery{{END_LINK}} of the following:",
+                            "args": [
+                                {
+                                    "type": "HYPERLINK",
+                                    "key": "LINK",
+                                    "value": "https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery"
+                                }
+                            ]
+                        },
+                        "urls": [
+                            {
+                                "result": {
+                                    "format": "{{URL}}",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}}",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}}",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "{{URL}}",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/css/styles.css"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "OptimizeImages": {
+                "localizedRuleName": "Optimize images",
+                "ruleImpact": 10.6009,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "Properly formatting and compressing images can save many bytes of data."
+                },
+                "urlBlocks": [
+                    {
+                        "header": {
+                            "format": "{{BEGIN_LINK}}Optimize the following images{{END_LINK}} to reduce their size by {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+                            "args": [
+                                {
+                                    "type": "HYPERLINK",
+                                    "key": "LINK",
+                                    "value": "https://developers.google.com/speed/docs/insights/OptimizeImages"
+                                },
+                                {
+                                    "type": "BYTES",
+                                    "key": "SIZE_IN_BYTES",
+                                    "value": "103.5KiB"
+                                },
+                                {
+                                    "type": "PERCENTAGE",
+                                    "key": "PERCENTAGE",
+                                    "value": "40%"
+                                }
+                            ]
+                        },
+                        "urls": [
+                            {
+                                "result": {
+                                    "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/bg.png"
+                                        },
+                                        {
+                                            "type": "BYTES",
+                                            "key": "SIZE_IN_BYTES",
+                                            "value": "85.2KiB"
+                                        },
+                                        {
+                                            "type": "PERCENTAGE",
+                                            "key": "PERCENTAGE",
+                                            "value": "36%"
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "result": {
+                                    "format": "Compressing {{URL}} could save {{SIZE_IN_BYTES}} ({{PERCENTAGE}} reduction).",
+                                    "args": [
+                                        {
+                                            "type": "URL",
+                                            "key": "URL",
+                                            "value": "https://rsmith.io/img/me.jpg"
+                                        },
+                                        {
+                                            "type": "BYTES",
+                                            "key": "SIZE_IN_BYTES",
+                                            "value": "18.4KiB"
+                                        },
+                                        {
+                                            "type": "PERCENTAGE",
+                                            "key": "PERCENTAGE",
+                                            "value": "71%"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "PrioritizeVisibleContent": {
+                "localizedRuleName": "Prioritize visible content",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "SPEED"
+                ],
+                "summary": {
+                    "format": "You have the above-the-fold content properly prioritized. Learn more about {{BEGIN_LINK}}prioritizing visible content{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent"
+                        }
+                    ]
+                }
+            },
+            "SizeContentToViewport": {
+                "localizedRuleName": "Size content to viewport",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "USABILITY"
+                ],
+                "summary": {
+                    "format": "The contents of your page fit within the viewport. Learn more about {{BEGIN_LINK}}sizing content to the viewport{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/SizeContentToViewport"
+                        }
+                    ]
+                }
+            },
+            "SizeTapTargetsAppropriately": {
+                "localizedRuleName": "Size tap targets appropriately",
+                "ruleImpact": 0.22684310018903592,
+                "groups": [
+                    "USABILITY"
+                ],
+                "summary": {
+                    "format": "Some of the links/buttons on your webpage may be too small for a user to easily tap on a touchscreen. Consider {{BEGIN_LINK}}making these tap targets larger{{END_LINK}} to provide a better user experience.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/SizeTapTargetsAppropriately"
+                        }
+                    ]
+                },
+                "urlBlocks": [
+                    {
+                        "header": {
+                            "format": "The following tap targets are close to other nearby tap targets and may need additional spacing around them."
+                        },
+                        "urls": [
+                            {
+                                "result": {
+                                    "format": "The tap target {{HTML_TEXT}} and {{NUM_OTHERS}} others are close to other tap targets.",
+                                    "args": [
+                                        {
+                                            "type": "STRING_LITERAL",
+                                            "key": "HTML_TEXT",
+                                            "value": "<a href=\"https://uk.lin\u2026om/in/rsmithio\">LinkedIn profi\u2026of Robin Smith</a>"
+                                        },
+                                        {
+                                            "type": "INT_LITERAL",
+                                            "key": "NUM_OTHERS",
+                                            "value": "1"
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "UseLegibleFontSizes": {
+                "localizedRuleName": "Use legible font sizes",
+                "ruleImpact": 0.0,
+                "groups": [
+                    "USABILITY"
+                ],
+                "summary": {
+                    "format": "The text on your page is legible. Learn more about {{BEGIN_LINK}}using legible font sizes{{END_LINK}}.",
+                    "args": [
+                        {
+                            "type": "HYPERLINK",
+                            "key": "LINK",
+                            "value": "https://developers.google.com/speed/docs/insights/UseLegibleFontSizes"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "version": {
+        "major": 1,
+        "minor": 15
+    }
+}

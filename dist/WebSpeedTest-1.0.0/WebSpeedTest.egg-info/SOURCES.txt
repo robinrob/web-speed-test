@@ -1,0 +1,8 @@
+setup.py
+web_speed_test.py
+WebSpeedTest.egg-info/PKG-INFO
+WebSpeedTest.egg-info/SOURCES.txt
+WebSpeedTest.egg-info/dependency_links.txt
+WebSpeedTest.egg-info/entry_points.txt
+WebSpeedTest.egg-info/requires.txt
+WebSpeedTest.egg-info/top_level.txt

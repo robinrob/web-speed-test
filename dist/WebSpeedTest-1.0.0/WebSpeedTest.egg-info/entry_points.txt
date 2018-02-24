@@ -1,0 +1,3 @@
+[console_scripts]
+webspeedtest = web_speed_test:main
+
